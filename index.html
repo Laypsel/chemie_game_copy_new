@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Хімічна гра — Бета (демо 3 варіанти)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Авторизація -->
+  <section id="auth">
+    <h2>Вхід</h2>
+
+    <div class="role-row">
+      <label><input type="radio" name="role" value="student" checked> Студент</label>
+      <label><input type="radio" name="role" value="teacher"> Викладач</label>
+    </div>
+
+    <div id="student-fields">
+      <input type="text" id="st-last" placeholder="Прізвище" />
+      <input type="text" id="st-first" placeholder="Ім’я" />
+      <input type="text" id="st-group" placeholder="Група" />
+    </div>
+
+    <div id="teacher-fields" style="display:none;">
+      <input type="text" id="t-last" placeholder="Прізвище" />
+      <input type="text" id="t-first" placeholder="Ім’я" />
+      <input type="text" id="t-middle" placeholder="По батькові" />
+      <label class="code-label">Кодове слово:
+        <!-- без плейсхолдера; українське введення працює звичайно -->
+        <input type="password" id="t-code" aria-label="Кодове слово" />
+      </label>
+    </div>
+
+    <button id="start">Почати</button>
+  </section>
+
+  <!-- Гра -->
+  <section id="game" style="display:none;">
+    <h2 id="variantTitle"></h2>
+    <!-- ТАЙМЕР 15 ХВ -->
+    <div id="timer" class="timer"></div>
+    <form id="quiz-form"></form>
+    <button id="finish" type="button">Завершити тест</button>
+    <div id="result"></div>
+  </section>
+
+  <!-- Панель викладача -->
+  <section id="teacher-panel" style="display:none;">
+    <h2>Результати студентів</h2>
+    <table id="res-table">
+      <thead>
+        <tr>
+          <th>Дата/час</th><th>Прізвище</th><th>Ім’я</th><th>Група</th><th>Варіант</th><th>Бал</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button id="clear-results" type="button">Очистити результати (локально)</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
