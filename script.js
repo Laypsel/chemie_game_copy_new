@@ -522,7 +522,7 @@ function startTrialVariant() {
   currentPhase = "trial";
   currentVariant = TRIAL_VARIANT;
   initGame(currentVariant);
-  startTimer(10); // 15 хв на пробний
+  startTimer(15); // 15 хв на пробний
 }
 
 function startMainVariant() {
@@ -588,6 +588,7 @@ const secGame   = document.getElementById("game");
 const secPanel  = document.getElementById("teacher-panel");
 const startBtn  = document.getElementById("start");
 const finishBtn = document.getElementById("finish");
+const goMainBtn = document.getElementById("go-main-test");
 const quizForm  = document.getElementById("quiz-form");
 const resultEl  = document.getElementById("result");
 
@@ -752,6 +753,10 @@ finishBtn.addEventListener("click", () => {
   finishCurrentTest(false);
 });
 
+goMainBtn.addEventListener("click", () => {
+  goMainBtn.style.display = "none";
+  startMainVariant();
+});
 
 /******** Збереження результату (локально) ********/
 function saveResult(total){
@@ -779,10 +784,7 @@ function finishCurrentTest(auto = false) {
 
   // пробний варіант – НІКУДИ не зберігаємо, просто переходимо до основного
   if (currentPhase === "trial") {
-    // невелика пауза, щоб учень побачив бал
-    setTimeout(() => {
-      startMainVariant();
-    }, auto ? 1000 : 2000);
+    goMainBtn.style.display = "inline-block"; // показуємо кнопку переходу
     return;
   }
 

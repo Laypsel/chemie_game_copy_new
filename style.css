@@ -184,3 +184,11 @@ input.name {
 #timer.warning {
   color: #dc2626; /* червоний, коли мало часу */
 }
+
+#go-main-test {
+  margin-top: 12px;
+  background: #16a34a;
+}
+#go-main-test:hover {
+  background: #15803d;
+}
