@@ -9,10 +9,10 @@ const TRIAL_VARIANT = {
     { cation: "Mg²⁺", anion: "SiO₃²⁻", correctFormula: "MgSiO₃",        correctName: "Магній силікат" },
     { cation: "Al³⁺", anion: "SiO₃²⁻", correctFormula: "Al₂(SiO₃)₃",    correctName: "Алюміній силікат" },
     { cation: "Ca²⁺", anion: "PO₄³⁻",  correctFormula: "Ca₃(PO₄)₂",     correctName: "Кальцій фосфат" },
-    { cation: "Fe³⁺", anion: "CO₃²⁻",  correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (III) карбонат" },
+    { cation: "Fe³⁺", anion: "CO₃²⁻",  correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (ІІІ) карбонат" },
     { cation: "Mg²⁺", anion: "Br⁻",    correctFormula: "MgBr₂",         correctName: "Магній бромід" },
     { cation: "NH₄⁺", anion: "SO₄²⁻",  correctFormula: "(NH₄)₂SO₄",     correctName: "Амоній сульфат" },
-    { cation: "Cu²⁺", anion: "PO₄³⁻",  correctFormula: "Cu₃(PO₄)₂",     correctName: "Купрум (II) фосфат" }
+    { cation: "Cu²⁺", anion: "PO₄³⁻",  correctFormula: "Cu₃(PO₄)₂",     correctName: "Купрум (ІІ) фосфат" }
   ]
 };
 
@@ -25,10 +25,10 @@ const VARIANTS = [
       { cation:"Mg²⁺", anion:"Br⁻",   correctFormula:"MgBr₂",     correctName:"Магній бромід" },
       { cation:"Al³⁺", anion:"O²⁻",   correctFormula:"Al₂O₃",     correctName:"Алюміній оксид" },
       { cation:"K⁺",   anion:"NO₃⁻",  correctFormula:"KNO₃",      correctName:"Калій нітрат" },
-      { cation:"Fe³⁺", anion:"Cl⁻",   correctFormula:"FeCl₃",     correctName:"Ферум (III) хлорид" },
+      { cation:"Fe³⁺", anion:"Cl⁻",   correctFormula:"FeCl₃",     correctName:"Ферум (ІІІ) хлорид" },
       { cation:"NH₄⁺", anion:"SO₄²⁻", correctFormula:"(NH₄)₂SO₄",correctName:"Амоній сульфат" },
       { cation:"Ba²⁺", anion:"NO₃⁻",  correctFormula:"Ba(NO₃)₂",  correctName:"Барій нітрат" },
-      { cation:"Cu²⁺", anion:"S²⁻",   correctFormula:"CuS",       correctName:"Купрум (II) сульфід" },
+      { cation:"Cu²⁺", anion:"S²⁻",   correctFormula:"CuS",       correctName:"Купрум (ІІ) сульфід" },
       { cation:"Zn²⁺", anion:"Cl⁻",   correctFormula:"ZnCl₂",     correctName:"Цинк хлорид" }
     ]
   },
@@ -42,8 +42,8 @@ const VARIANTS = [
       { cation:"Na⁺",  anion:"CO₃²⁻", correctFormula:"Na₂CO₃",     correctName:"Натрій карбонат" },
       { cation:"Mg²⁺", anion:"OH⁻",   correctFormula:"Mg(OH)₂",    correctName:"Магній гідроксид" },
       { cation:"NH₄⁺", anion:"Cl⁻",   correctFormula:"NH₄Cl",      correctName:"Амоній хлорид" },
-      { cation:"Fe²⁺", anion:"O²⁻",   correctFormula:"FeO",        correctName:"Ферум (II) оксид" },
-      { cation:"Cu²⁺", anion:"NO₃⁻",  correctFormula:"Cu(NO₃)₂",   correctName:"Купрум (II) нітрат" },
+      { cation:"Fe²⁺", anion:"O²⁻",   correctFormula:"FeO",        correctName:"Ферум (ІІ) оксид" },
+      { cation:"Cu²⁺", anion:"NO₃⁻",  correctFormula:"Cu(NO₃)₂",   correctName:"Купрум (ІІ) нітрат" },
       { cation:"Ba²⁺", anion:"SO₄²⁻", correctFormula:"BaSO₄",      correctName:"Барій сульфат" }
     ]
   },
@@ -51,14 +51,14 @@ const VARIANTS = [
     id: 3, name: "Варіант 3",
     tasks: [
       { cation:"Na⁺",  anion:"PO₄³⁻", correctFormula:"Na₃PO₄",      correctName:"Натрій фосфат" },
-      { cation:"Fe³⁺", anion:"OH⁻",   correctFormula:"Fe(OH)₃",     correctName:"Ферум (III) гідроксид" },
+      { cation:"Fe³⁺", anion:"OH⁻",   correctFormula:"Fe(OH)₃",     correctName:"Ферум (ІІІ) гідроксид" },
       { cation:"Ca²⁺", anion:"CO₃²⁻", correctFormula:"CaCO₃",       correctName:"Кальцій карбонат" },
-      { cation:"Pb²⁺", anion:"I⁻",    correctFormula:"PbI₂",        correctName:"Плюмбум (II) йодид" },
+      { cation:"Pb²⁺", anion:"I⁻",    correctFormula:"PbI₂",        correctName:"Плюмбум (ІІ) йодид" },
       { cation:"Zn²⁺", anion:"S²⁻",   correctFormula:"ZnS",         correctName:"Цинк сульфід" },
       { cation:"Ag⁺",  anion:"NO₃⁻",  correctFormula:"AgNO₃",       correctName:"Срібло нітрат" },
       { cation:"K⁺",   anion:"MnO₄⁻", correctFormula:"KMnO₄",       correctName:"Калій перманганат" },
       { cation:"Al³⁺", anion:"SO₄²⁻", correctFormula:"Al₂(SO₄)₃",   correctName:"Алюміній сульфат" },
-      { cation:"Cu⁺",  anion:"Cl⁻",   correctFormula:"CuCl",        correctName:"Купрум (I) хлорид" },
+      { cation:"Cu⁺",  anion:"Cl⁻",   correctFormula:"CuCl",        correctName:"Купрум (І) хлорид" },
       { cation:"Sr²⁺", anion:"Br⁻",   correctFormula:"SrBr₂",       correctName:"Стронцій бромід" }
     ]
   },
@@ -116,9 +116,9 @@ const VARIANTS = [
       { cation: "Ca²⁺",  anion: "Cl⁻",     correctFormula: "CaCl₂",         correctName: "Кальцій хлорид" },
       { cation: "Ca²⁺",  anion: "CO₃²⁻",   correctFormula: "CaCO₃",         correctName: "Кальцій карбонат" },
       { cation: "Ca²⁺",  anion: "PO₄³⁻",   correctFormula: "Ca₃(PO₄)₂",     correctName: "Кальцій фосфат" },
-      { cation: "Fe³⁺",  anion: "Cl⁻",     correctFormula: "FeCl₃",         correctName: "Ферум (III) хлорид" },
-      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (III) карбонат" },
-      { cation: "Fe³⁺",  anion: "PO₄³⁻",   correctFormula: "FePO₄",         correctName: "Ферум (III) фосфат" },
+      { cation: "Fe³⁺",  anion: "Cl⁻",     correctFormula: "FeCl₃",         correctName: "Ферум (ІІІ) хлорид" },
+      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (ІІІ) карбонат" },
+      { cation: "Fe³⁺",  anion: "PO₄³⁻",   correctFormula: "FePO₄",         correctName: "Ферум (ІІІ) фосфат" },
       { cation: "Ba²⁺",  anion: "OH⁻",     correctFormula: "Ba(OH)₂",       correctName: "Барій гідроксид" }
     ]
   },
@@ -144,9 +144,9 @@ const VARIANTS = [
       { cation: "Na⁺",   anion: "NO₃⁻",    correctFormula: "NaNO₃",         correctName: "Натрій нітрат" },
       { cation: "Al³⁺",  anion: "NO₃⁻",    correctFormula: "Al(NO₃)₃",      correctName: "Алюміній нітрат" },
       { cation: "K⁺",    anion: "CO₃²⁻",   correctFormula: "K₂CO₃",         correctName: "Калій карбонат" },
-      { cation: "Fe²⁺",  anion: "Cl⁻",     correctFormula: "FeCl₂",         correctName: "Ферум (II) хлорид" },
+      { cation: "Fe²⁺",  anion: "Cl⁻",     correctFormula: "FeCl₂",         correctName: "Ферум (ІІ) хлорид" },
       { cation: "Mg²⁺",  anion: "SiO₃²⁻",  correctFormula: "MgSiO₃",        correctName: "Магній силікат" },
-      { cation: "Fe²⁺",  anion: "CO₃²⁻",   correctFormula: "FeCO₃",         correctName: "Ферум (II) карбонат" },
+      { cation: "Fe²⁺",  anion: "CO₃²⁻",   correctFormula: "FeCO₃",         correctName: "Ферум (ІІ) карбонат" },
       { cation: "Ba²⁺",  anion: "PO₄³⁻",   correctFormula: "Ba₃(PO₄)₂",     correctName: "Барій фосфат" },
       { cation: "Na⁺",   anion: "SO₄²⁻",   correctFormula: "Na₂SO₄",        correctName: "Натрій сульфат" },
       { cation: "K⁺",    anion: "HCO₃⁻",   correctFormula: "KHCO₃",         correctName: "Калій гідрогенкарбонат" }
@@ -193,7 +193,7 @@ const VARIANTS = [
       { cation: "Na⁺",   anion: "SO₄²⁻",   correctFormula: "Na₂SO₄",        correctName: "Натрій сульфат" },
       { cation: "Al³⁺",  anion: "SiO₃²⁻",  correctFormula: "Al₂(SiO₃)₃",    correctName: "Алюміній силікат" },
       { cation: "K⁺",    anion: "SO₃²⁻",   correctFormula: "K₂SO₃",         correctName: "Калій сульфіт" },
-      { cation: "Fe³⁺",  anion: "Cl⁻",     correctFormula: "FeCl₃",         correctName: "Ферум (III) хлорид" },
+      { cation: "Fe³⁺",  anion: "Cl⁻",     correctFormula: "FeCl₃",         correctName: "Ферум (ІІІ) хлорид" },
       { cation: "Al³⁺",  anion: "OH⁻",     correctFormula: "Al(OH)₃",       correctName: "Алюміній гідроксид" }
     ]
   },
@@ -202,14 +202,14 @@ const VARIANTS = [
     tasks: [
       { cation: "Ba²⁺",  anion: "SO₄²⁻",   correctFormula: "BaSO₄",         correctName: "Барій сульфат" },
       { cation: "Ca²⁺",  anion: "CO₃²⁻",   correctFormula: "CaCO₃",         correctName: "Кальцій карбонат" },
-      { cation: "Fe²⁺",  anion: "CO₃²⁻",   correctFormula: "FeCO₃",         correctName: "Ферум (II) карбонат" },
+      { cation: "Fe²⁺",  anion: "CO₃²⁻",   correctFormula: "FeCO₃",         correctName: "Ферум (ІІ) карбонат" },
       { cation: "Na⁺",   anion: "SiO₃²⁻",  correctFormula: "Na₂SiO₃",       correctName: "Натрій силікат" },
       { cation: "Ba²⁺",  anion: "PO₄³⁻",   correctFormula: "Ba₃(PO₄)₂",     correctName: "Барій фосфат" },
       { cation: "Mg²⁺",  anion: "OH⁻",     correctFormula: "Mg(OH)₂",       correctName: "Магній гідроксид" },
-      { cation: "Fe³⁺",  anion: "Cl⁻",     correctFormula: "FeCl₃",         correctName: "Ферум (III) хлорид" },
+      { cation: "Fe³⁺",  anion: "Cl⁻",     correctFormula: "FeCl₃",         correctName: "Ферум (ІІІ) хлорид" },
       { cation: "Al³⁺",  anion: "OH⁻",     correctFormula: "Al(OH)₃",       correctName: "Алюміній гідроксид" },
       { cation: "Al³⁺",  anion: "SiO₃²⁻",  correctFormula: "Al₂(SiO₃)₃",    correctName: "Алюміній силікат" },
-      { cation: "Fe²⁺",  anion: "CO₃²⁻",   correctFormula: "FeCO₃",         correctName: "Ферум (II) карбонат" }
+      { cation: "Fe²⁺",  anion: "CO₃²⁻",   correctFormula: "FeCO₃",         correctName: "Ферум (ІІ) карбонат" }
     ]
   },
   {
@@ -218,13 +218,13 @@ const VARIANTS = [
       { cation: "Ca²⁺",  anion: "PO₄³⁻",   correctFormula: "Ca₃(PO₄)₂",     correctName: "Кальцій фосфат" },
       { cation: "Ba²⁺",  anion: "SO₃²⁻",   correctFormula: "BaSO₃",         correctName: "Барій сульфіт" },
       { cation: "Ca²⁺",  anion: "HCO₃⁻",   correctFormula: "Ca(HCO₃)₂",     correctName: "Кальцій гідрогенкарбонат" },
-      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (III) карбонат" },
+      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (ІІІ) карбонат" },
       { cation: "Al³⁺",  anion: "SO₄²⁻",   correctFormula: "Al₂(SO₄)₃",     correctName: "Алюміній сульфат" },
       { cation: "Mg²⁺",  anion: "SiO₃²⁻",  correctFormula: "MgSiO₃",        correctName: "Магній силікат" },
       { cation: "K⁺",    anion: "NO₃⁻",    correctFormula: "KNO₃",          correctName: "Калій нітрат" },
       { cation: "Ca²⁺",  anion: "NO₃⁻",    correctFormula: "Ca(NO₃)₂",      correctName: "Кальцій нітрат" },
       { cation: "Mg²⁺",  anion: "PO₄³⁻",   correctFormula: "Mg₃(PO₄)₂",     correctName: "Магній фосфат" },
-      { cation: "Fe³⁺",  anion: "PO₄³⁻",   correctFormula: "FePO₄",         correctName: "Ферум (III) фосфат" }
+      { cation: "Fe³⁺",  anion: "PO₄³⁻",   correctFormula: "FePO₄",         correctName: "Ферум (ІІІ) фосфат" }
     ]
   },
   {
@@ -237,7 +237,7 @@ const VARIANTS = [
       { cation: "Ba²⁺",  anion: "Br⁻",     correctFormula: "BaBr₂",         correctName: "Барій бромід" },
       { cation: "Na⁺",   anion: "OH⁻",     correctFormula: "NaOH",          correctName: "Натрій гідроксид" },
       { cation: "Ca²⁺",  anion: "NO₃⁻",    correctFormula: "Ca(NO₃)₂",      correctName: "Кальцій нітрат" },
-      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (III) карбонат" },
+      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (ІІІ) карбонат" },
       { cation: "Ca²⁺",  anion: "CO₃²⁻",   correctFormula: "CaCO₃",         correctName: "Кальцій карбонат" },
       { cation: "Al³⁺",  anion: "SO₄²⁻",   correctFormula: "Al₂(SO₄)₃",     correctName: "Алюміній сульфат" }
     ]
@@ -246,13 +246,13 @@ const VARIANTS = [
     id: 16, name: "Варіант 16",
     tasks: [
       { cation: "NH₄⁺",  anion: "CO₃²⁻",   correctFormula: "(NH₄)₂CO₃",    correctName: "Амоній карбонат" },
-      { cation: "Fe²⁺",  anion: "Cl⁻",     correctFormula: "FeCl₂",        correctName: "Ферум (II) хлорид" },
+      { cation: "Fe²⁺",  anion: "Cl⁻",     correctFormula: "FeCl₂",        correctName: "Ферум (ІІ) хлорид" },
       { cation: "Ag⁺",   anion: "NO₃⁻",    correctFormula: "AgNO₃",        correctName: "Аргентум нітрат" },
-      { cation: "Pb²⁺",  anion: "SO₄²⁻",   correctFormula: "PbSO₄",        correctName: "Плюмбум (II) сульфат" },
+      { cation: "Pb²⁺",  anion: "SO₄²⁻",   correctFormula: "PbSO₄",        correctName: "Плюмбум (ІІ) сульфат" },
       { cation: "H⁺",    anion: "CO₃²⁻",   correctFormula: "H₂CO₃",        correctName: "Гідроген карбонат" },
       { cation: "Zn²⁺",  anion: "Br⁻",     correctFormula: "ZnBr₂",        correctName: "Цинк бромід" },
       { cation: "Mg²⁺",  anion: "PO₄³⁻",   correctFormula: "Mg₃(PO₄)₂",    correctName: "Магній фосфат" },
-      { cation: "Fe³⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₃",      correctName: "Ферум (III) гідроксид" },
+      { cation: "Fe³⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₃",      correctName: "Ферум (ІІІ) гідроксид" },
       { cation: "Na⁺",   anion: "Cl⁻",     correctFormula: "NaCl",         correctName: "Натрій хлорид" },
       { cation: "Al³⁺",  anion: "SO₄²⁻",   correctFormula: "Al₂(SO₄)₃",    correctName: "Алюміній сульфат" }
     ]
@@ -264,11 +264,11 @@ const VARIANTS = [
       { cation: "NH₄⁺",  anion: "Cl⁻",     correctFormula: "NH₄Cl",        correctName: "Амоній хлорид" },
       { cation: "Zn²⁺",  anion: "I⁻",      correctFormula: "ZnI₂",         correctName: "Цинк йодид" },
       { cation: "K⁺",    anion: "NO₃⁻",    correctFormula: "KNO₃",         correctName: "Калій нітрат" },
-      { cation: "Pb²⁺",  anion: "Cl⁻",     correctFormula: "PbCl₂",        correctName: "Плюмбум (II) хлорид" },
+      { cation: "Pb²⁺",  anion: "Cl⁻",     correctFormula: "PbCl₂",        correctName: "Плюмбум (ІІ) хлорид" },
       { cation: "Ca²⁺",  anion: "CO₃²⁻",   correctFormula: "CaCO₃",        correctName: "Кальцій карбонат" },
       { cation: "Mg²⁺",  anion: "HCO₃⁻",   correctFormula: "Mg(HCO₃)₂",    correctName: "Магній гідрогенкарбонат" },
       { cation: "Mg²⁺",  anion: "SO₄²⁻",   correctFormula: "MgSO₄",        correctName: "Магній сульфат" },
-      { cation: "Fe²⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₂",      correctName: "Ферум (II) гідроксид" },
+      { cation: "Fe²⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₂",      correctName: "Ферум (ІІ) гідроксид" },
       { cation: "Ca²⁺",  anion: "HCO₃⁻",   correctFormula: "Ca(HCO₃)₂",    correctName: "Кальцій гідрогенкарбонат" }
     ]
   },
@@ -283,14 +283,14 @@ const VARIANTS = [
       { cation: "H⁺",    anion: "SO₃²⁻",   correctFormula: "H₂SO₃",        correctName: "Гідроген сульфіт" },
       { cation: "Zn²⁺",  anion: "CO₃²⁻",   correctFormula: "ZnCO₃",        correctName: "Цинк карбонат" },
       { cation: "Zn²⁺",  anion: "NO₃⁻",    correctFormula: "Zn(NO₃)₂",     correctName: "Цинк нітрат" },
-      { cation: "Pb²⁺",  anion: "NO₃⁻",    correctFormula: "Pb(NO₃)₂",     correctName: "Плюмбум (II) нітрат" },
-      { cation: "Pb²⁺",  anion: "PO₄³⁻",   correctFormula: "Pb₃(PO₄)₂",    correctName: "Плюмбум (II) фосфат" }
+      { cation: "Pb²⁺",  anion: "NO₃⁻",    correctFormula: "Pb(NO₃)₂",     correctName: "Плюмбум (ІІ) нітрат" },
+      { cation: "Pb²⁺",  anion: "PO₄³⁻",   correctFormula: "Pb₃(PO₄)₂",    correctName: "Плюмбум (ІІ) фосфат" }
     ]
   },
   {
     id: 19, name: "Варіант 19",
     tasks: [
-      { cation: "Fe²⁺",  anion: "Cl⁻",     correctFormula: "FeCl₂",        correctName: "Ферум (II) хлорид" },
+      { cation: "Fe²⁺",  anion: "Cl⁻",     correctFormula: "FeCl₂",        correctName: "Ферум (ІІ) хлорид" },
       { cation: "NH₄⁺",  anion: "Cl⁻",     correctFormula: "NH₄Cl",        correctName: "Амоній хлорид" },
       { cation: "H⁺",    anion: "SO₄²⁻",   correctFormula: "H₂SO₄",        correctName: "Гідроген сульфат" },
       { cation: "NH₄⁺",  anion: "CO₃²⁻",   correctFormula: "(NH₄)₂CO₃",    correctName: "Амоній карбонат" },
@@ -309,8 +309,8 @@ const VARIANTS = [
       { cation: "H⁺",    anion: "SO₃²⁻",   correctFormula: "H₂SO₃",        correctName: "Гідроген сульфіт" },
       { cation: "Zn²⁺",  anion: "I⁻",      correctFormula: "ZnI₂",         correctName: "Цинк йодид" },
       { cation: "Ag⁺",   anion: "Cl⁻",     correctFormula: "AgCl",         correctName: "Аргентум хлорид" },
-      { cation: "Cu²⁺",  anion: "SO₄²⁻",   correctFormula: "CuSO₄",        correctName: "Купрум (II) сульфат" },
-      { cation: "Pb²⁺",  anion: "SO₄²⁻",   correctFormula: "PbSO₄",        correctName: "Плюмбум (II) сульфат" },
+      { cation: "Cu²⁺",  anion: "SO₄²⁻",   correctFormula: "CuSO₄",        correctName: "Купрум (ІІ) сульфат" },
+      { cation: "Pb²⁺",  anion: "SO₄²⁻",   correctFormula: "PbSO₄",        correctName: "Плюмбум (ІІ) сульфат" },
       { cation: "K⁺",    anion: "NO₃⁻",    correctFormula: "KNO₃",         correctName: "Калій нітрат" },
       { cation: "Ag⁺",   anion: "SO₄²⁻",   correctFormula: "Ag₂SO₄",       correctName: "Аргентум сульфат" },
       { cation: "Zn²⁺",  anion: "SO₄²⁻",   correctFormula: "ZnSO₄",        correctName: "Цинк сульфат" },
@@ -321,7 +321,7 @@ const VARIANTS = [
     id: 21, name: "Варіант 21",
     tasks: [
       { cation: "H⁺",    anion: "CO₃²⁻",   correctFormula: "H₂CO₃",        correctName: "Гідроген карбонат" },
-      { cation: "Pb²⁺",  anion: "Cl⁻",     correctFormula: "PbCl₂",        correctName: "Плюмбум (II) хлорид" },
+      { cation: "Pb²⁺",  anion: "Cl⁻",     correctFormula: "PbCl₂",        correctName: "Плюмбум (ІІ) хлорид" },
       { cation: "H⁺",    anion: "NO₃⁻",    correctFormula: "HNO₃",         correctName: "Гідроген нітрат" },
       { cation: "Zn²⁺",  anion: "Br⁻",     correctFormula: "ZnBr₂",        correctName: "Цинк бромід" },
       { cation: "H⁺",    anion: "S²⁻",     correctFormula: "H₂S",          correctName: "Гідроген сульфід" },
@@ -329,7 +329,7 @@ const VARIANTS = [
       { cation: "Zn²⁺",  anion: "Cl⁻",     correctFormula: "ZnCl₂",        correctName: "Цинк хлорид" },
       { cation: "H⁺",    anion: "SO₃²⁻",   correctFormula: "H₂SO₃",        correctName: "Гідроген сульфіт" },
       { cation: "Mg²⁺",  anion: "PO₄³⁻",   correctFormula: "Mg₃(PO₄)₂",    correctName: "Магній фосфат" },
-      { cation: "Cu²⁺",  anion: "PO₄³⁻",   correctFormula: "Cu₃(PO₄)₂",    correctName: "Купрум (II) фосфат" }
+      { cation: "Cu²⁺",  anion: "PO₄³⁻",   correctFormula: "Cu₃(PO₄)₂",    correctName: "Купрум (ІІ) фосфат" }
     ]
   },
   {
@@ -337,14 +337,14 @@ const VARIANTS = [
     tasks: [
       { cation: "Mg²⁺",  anion: "HCO₃⁻",   correctFormula: "Mg(HCO₃)₂",    correctName: "Магній гідрогенкарбонат" },
       { cation: "Zn²⁺",  anion: "CO₃²⁻",   correctFormula: "ZnCO₃",        correctName: "Цинк карбонат" },
-      { cation: "Fe³⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₃",      correctName: "Ферум (III) гідроксид" },
+      { cation: "Fe³⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₃",      correctName: "Ферум (ІІІ) гідроксид" },
       { cation: "H⁺",    anion: "SiO₃²⁻",  correctFormula: "H₂SiO₃",       correctName: "Гідроген силікат" },
       { cation: "Ag⁺",   anion: "SO₄²⁻",   correctFormula: "Ag₂SO₄",       correctName: "Аргентум сульфат" },
       { cation: "Zn²⁺",  anion: "NO₃⁻",    correctFormula: "Zn(NO₃)₂",     correctName: "Цинк нітрат" },
       { cation: "Na⁺",   anion: "Cl⁻",     correctFormula: "NaCl",         correctName: "Натрій хлорид" },
-      { cation: "Cu²⁺",  anion: "SO₄²⁻",   correctFormula: "CuSO₄",        correctName: "Купрум (II) сульфат" },
-      { cation: "Fe²⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₂",      correctName: "Ферум (II) гідроксид" },
-      { cation: "Pb²⁺",  anion: "NO₃⁻",    correctFormula: "Pb(NO₃)₂",     correctName: "Плюмбум (II) нітрат" }
+      { cation: "Cu²⁺",  anion: "SO₄²⁻",   correctFormula: "CuSO₄",        correctName: "Купрум (ІІ) сульфат" },
+      { cation: "Fe²⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₂",      correctName: "Ферум (ІІ) гідроксид" },
+      { cation: "Pb²⁺",  anion: "NO₃⁻",    correctFormula: "Pb(NO₃)₂",     correctName: "Плюмбум (ІІ) нітрат" }
     ]
   },
   {
@@ -352,9 +352,9 @@ const VARIANTS = [
     tasks: [
       { cation: "Al³⁺",  anion: "SO₄²⁻",   correctFormula: "Al₂(SO₄)₃",    correctName: "Алюміній сульфат" },
       { cation: "H⁺",    anion: "CO₃²⁻",   correctFormula: "H₂CO₃",        correctName: "Гідроген карбонат" },
-      { cation: "Pb²⁺",  anion: "SO₄²⁻",   correctFormula: "PbSO₄",        correctName: "Плюмбум (II) сульфат" },
+      { cation: "Pb²⁺",  anion: "SO₄²⁻",   correctFormula: "PbSO₄",        correctName: "Плюмбум (ІІ) сульфат" },
       { cation: "Ba²⁺",  anion: "SO₄²⁻",   correctFormula: "BaSO₄",        correctName: "Барій сульфат" },
-      { cation: "Cu²⁺",  anion: "NO₃⁻",    correctFormula: "Cu(NO₃)₂",     correctName: "Купрум (II) нітрат" },
+      { cation: "Cu²⁺",  anion: "NO₃⁻",    correctFormula: "Cu(NO₃)₂",     correctName: "Купрум (ІІ) нітрат" },
       { cation: "Ca²⁺",  anion: "PO₄³⁻",   correctFormula: "Ca₃(PO₄)₂",    correctName: "Кальцій фосфат" },
       { cation: "Ba²⁺",  anion: "PO₄³⁻",   correctFormula: "Ba₃(PO₄)₂",    correctName: "Барій фосфат" },
       { cation: "NH₄⁺",  anion: "SO₄²⁻",   correctFormula: "(NH₄)₂SO₄",    correctName: "Амоній сульфат" },
@@ -365,14 +365,14 @@ const VARIANTS = [
   {
     id: 24, name: "Варіант 24",
     tasks: [
-      { cation: "Fe²⁺",  anion: "CO₃²⁻",   correctFormula: "FeCO₃",        correctName: "Ферум (II) карбонат" },
-      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",    correctName: "Ферум (III) карбонат" },
+      { cation: "Fe²⁺",  anion: "CO₃²⁻",   correctFormula: "FeCO₃",        correctName: "Ферум (ІІ) карбонат" },
+      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",    correctName: "Ферум (ІІІ) карбонат" },
       { cation: "Na⁺",   anion: "SO₄²⁻",   correctFormula: "Na₂SO₄",       correctName: "Натрій сульфат" },
       { cation: "Na⁺",   anion: "SiO₃²⁻",  correctFormula: "Na₂SiO₃",      correctName: "Натрій силікат" },
       { cation: "Ba²⁺",  anion: "SO₄²⁻",   correctFormula: "BaSO₄",        correctName: "Барій сульфат" },
       { cation: "Ba²⁺",  anion: "Br⁻",     correctFormula: "BaBr₂",        correctName: "Барій бромід" },
       { cation: "Mg²⁺",  anion: "SiO₃²⁻",  correctFormula: "MgSiO₃",       correctName: "Магній силікат" },
-      { cation: "Cu²⁺",  anion: "Cl⁻",     correctFormula: "CuCl₂",        correctName: "Купрум (II) хлорид" },
+      { cation: "Cu²⁺",  anion: "Cl⁻",     correctFormula: "CuCl₂",        correctName: "Купрум (ІІ) хлорид" },
       { cation: "Mg²⁺",  anion: "OH⁻",     correctFormula: "Mg(OH)₂",      correctName: "Магній гідроксид" },
       { cation: "Ca²⁺",  anion: "NO₃⁻",    correctFormula: "Ca(NO₃)₂",     correctName: "Кальцій нітрат" }
     ]
@@ -380,14 +380,14 @@ const VARIANTS = [
   {
     id: 25, name: "Варіант 25",
     tasks: [
-      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",    correctName: "Ферум (III) карбонат" },
+      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",    correctName: "Ферум (ІІІ) карбонат" },
       { cation: "NH₄⁺",  anion: "OH⁻",     correctFormula: "NH₄OH",         correctName: "Амоній гідроксид" },
       { cation: "K⁺",    anion: "Br⁻",     correctFormula: "KBr",           correctName: "Калій бромід" },
       { cation: "Mg²⁺",  anion: "Cl⁻",     correctFormula: "MgCl₂",         correctName: "Магній хлорид" },
       { cation: "Ca²⁺",  anion: "I⁻",      correctFormula: "CaI₂",          correctName: "Кальцій йодид" },
       { cation: "Ba²⁺",  anion: "S²⁻",     correctFormula: "BaS",           correctName: "Барій сульфід" },
       { cation: "Zn²⁺",  anion: "OH⁻",     correctFormula: "Zn(OH)₂",       correctName: "Цинк гідроксид" },
-      { cation: "Fe²⁺",  anion: "NO₃⁻",    correctFormula: "Fe(NO₃)₂",      correctName: "Ферум (II) нітрат" },
+      { cation: "Fe²⁺",  anion: "NO₃⁻",    correctFormula: "Fe(NO₃)₂",      correctName: "Ферум (ІІ) нітрат" },
       { cation: "Ag⁺",   anion: "SO₄²⁻",   correctFormula: "Ag₂SO₄",        correctName: "Аргентум сульфат" },
       { cation: "Al³⁺",  anion: "SiO₃²⁻",  correctFormula: "Al₂(SiO₃)₃",    correctName: "Алюміній силікат" }
     ]
@@ -396,16 +396,16 @@ const VARIANTS = [
   {
     id: 26, name: "Варіант 26",
     tasks: [
-      { cation: "Fe³⁺",  anion: "PO₄³⁻",   correctFormula: "FePO₄",         correctName: "Ферум (III) фосфат" },
+      { cation: "Fe³⁺",  anion: "PO₄³⁻",   correctFormula: "FePO₄",         correctName: "Ферум (ІІІ) фосфат" },
       { cation: "Mg²⁺",  anion: "S²⁻",     correctFormula: "MgS",           correctName: "Магній сульфід" },
       { cation: "Zn²⁺",  anion: "SO₃²⁻",   correctFormula: "ZnSO₃",         correctName: "Цинк сульфіт" },
       { cation: "Ca²⁺",  anion: "NO₃⁻",    correctFormula: "Ca(NO₃)₂",      correctName: "Кальцій нітрат" },
       { cation: "K⁺",    anion: "NO₃⁻",    correctFormula: "KNO₃",          correctName: "Калій нітрат" },
       { cation: "K⁺",    anion: "SO₄²⁻",   correctFormula: "K₂SO₄",         correctName: "Калій сульфат" },
       { cation: "Ba²⁺",  anion: "PO₄³⁻",   correctFormula: "Ba₃(PO₄)₂",    correctName: "Барій фосфат" },
-      { cation: "Fe³⁺",  anion: "NO₃⁻",    correctFormula: "Fe(NO₃)₃",      correctName: "Ферум (III) нітрат" },
+      { cation: "Fe³⁺",  anion: "NO₃⁻",    correctFormula: "Fe(NO₃)₃",      correctName: "Ферум (ІІІ) нітрат" },
       { cation: "Zn²⁺",  anion: "CO₃²⁻",   correctFormula: "ZnCO₃",         correctName: "Цинк карбонат" },
-      { cation: "Cu²⁺",  anion: "OH⁻",     correctFormula: "Cu(OH)₂",       correctName: "Купрум (II) гідроксид" }
+      { cation: "Cu²⁺",  anion: "OH⁻",     correctFormula: "Cu(OH)₂",       correctName: "Купрум (ІІ) гідроксид" }
     ]
   },
 
@@ -417,8 +417,8 @@ const VARIANTS = [
       { cation: "Ca²⁺",  anion: "PO₄³⁻",   correctFormula: "Ca₃(PO₄)₂",     correctName: "Кальцій фосфат" },
       { cation: "Al³⁺",  anion: "PO₄³⁻",   correctFormula: "AlPO₄",         correctName: "Алюміній фосфат" },
       { cation: "Al³⁺",  anion: "NO₃⁻",    correctFormula: "Al(NO₃)₃",      correctName: "Алюміній нітрат" },
-      { cation: "Cu²⁺",  anion: "Cl⁻",     correctFormula: "CuCl₂",         correctName: "Купрум (II) хлорид" },
-      { cation: "Pb²⁺",  anion: "OH⁻",     correctFormula: "Pb(OH)₂",       correctName: "Плюмбум (II) гідроксид" },
+      { cation: "Cu²⁺",  anion: "Cl⁻",     correctFormula: "CuCl₂",         correctName: "Купрум (ІІ) хлорид" },
+      { cation: "Pb²⁺",  anion: "OH⁻",     correctFormula: "Pb(OH)₂",       correctName: "Плюмбум (ІІ) гідроксид" },
       { cation: "Zn²⁺",  anion: "CO₃²⁻",   correctFormula: "ZnCO₃",         correctName: "Цинк карбонат" },
       { cation: "Na⁺",   anion: "HCO₃⁻",   correctFormula: "NaHCO₃",        correctName: "Натрій гідрогенкарбонат" },
       { cation: "Ca²⁺",  anion: "SiO₃²⁻",  correctFormula: "CaSiO₃",        correctName: "Кальцій силікат" }
@@ -428,11 +428,11 @@ const VARIANTS = [
   {
     id: 28, name: "Варіант 28",
     tasks: [
-      { cation: "Pb²⁺",  anion: "NO₃⁻",    correctFormula: "Pb(NO₃)₂",      correctName: "Плюмбум (II) нітрат" },
+      { cation: "Pb²⁺",  anion: "NO₃⁻",    correctFormula: "Pb(NO₃)₂",      correctName: "Плюмбум (ІІ) нітрат" },
       { cation: "Ca²⁺",  anion: "CO₃²⁻",   correctFormula: "CaCO₃",         correctName: "Кальцій карбонат" },
       { cation: "Ca²⁺",  anion: "NO₃⁻",    correctFormula: "Ca(NO₃)₂",      correctName: "Кальцій нітрат" },
       { cation: "Mg²⁺",  anion: "HCO₃⁻",   correctFormula: "Mg(HCO₃)₂",     correctName: "Магній гідрогенкарбонат" },
-      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (III) карбонат" },
+      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (ІІІ) карбонат" },
       { cation: "NH₄⁺",  anion: "CO₃²⁻",   correctFormula: "(NH₄)₂CO₃",     correctName: "Амоній карбонат" },
       { cation: "Zn²⁺",  anion: "CO₃²⁻",   correctFormula: "ZnCO₃",         correctName: "Цинк карбонат" },
       { cation: "H⁺",    anion: "CO₃²⁻",   correctFormula: "H₂CO₃",         correctName: "Гідроген карбонат" },
@@ -449,10 +449,10 @@ const VARIANTS = [
       { cation: "Ba²⁺",  anion: "Br⁻",     correctFormula: "BaBr₂",         correctName: "Барій бромід" },
       { cation: "Mg²⁺",  anion: "SiO₃²⁻",  correctFormula: "MgSiO₃",        correctName: "Магній силікат" },
       { cation: "Ba²⁺",  anion: "PO₄³⁻",   correctFormula: "Ba₃(PO₄)₂",     correctName: "Барій фосфат" },
-      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (III) карбонат" },
+      { cation: "Fe³⁺",  anion: "CO₃²⁻",   correctFormula: "Fe₂(CO₃)₃",     correctName: "Ферум (ІІІ) карбонат" },
       { cation: "K⁺",    anion: "HCO₃⁻",   correctFormula: "KHCO₃",        correctName: "Калій гідрогенкарбонат" },
       { cation: "Na⁺",   anion: "Cl⁻",     correctFormula: "NaCl",          correctName: "Натрій хлорид" },
-      { cation: "Cu²⁺",  anion: "Cl⁻",     correctFormula: "CuCl₂",         correctName: "Купрум (II) хлорид" },
+      { cation: "Cu²⁺",  anion: "Cl⁻",     correctFormula: "CuCl₂",         correctName: "Купрум (ІІ) хлорид" },
       { cation: "NH₄⁺",  anion: "SO₄²⁻",   correctFormula: "(NH₄)₂SO₄",     correctName: "Амоній сульфат" }
     ]
   },
@@ -460,16 +460,16 @@ const VARIANTS = [
   {
     id: 30, name: "Варіант 30",
     tasks: [
-      { cation: "Cu²⁺",  anion: "SO₄²⁻",   correctFormula: "CuSO₄",         correctName: "Купрум (II) сульфат" },
+      { cation: "Cu²⁺",  anion: "SO₄²⁻",   correctFormula: "CuSO₄",         correctName: "Купрум (ІІ) сульфат" },
       { cation: "Na⁺",   anion: "HCO₃⁻",   correctFormula: "NaHCO₃",        correctName: "Натрій гідрогенкарбонат" },
       { cation: "Zn²⁺",  anion: "CO₃²⁻",   correctFormula: "ZnCO₃",         correctName: "Цинк карбонат" },
       { cation: "Ag⁺",   anion: "SO₄²⁻",   correctFormula: "Ag₂SO₄",        correctName: "Аргентум сульфат" },
       { cation: "Mg²⁺",  anion: "OH⁻",     correctFormula: "Mg(OH)₂",       correctName: "Магній гідроксид" },
       { cation: "Ca²⁺",  anion: "HCO₃⁻",   correctFormula: "Ca(HCO₃)₂",     correctName: "Кальцій гідрогенкарбонат" },
-      { cation: "Fe²⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₂",       correctName: "Ферум (II) гідроксид" },
+      { cation: "Fe²⁺",  anion: "OH⁻",     correctFormula: "Fe(OH)₂",       correctName: "Ферум (ІІ) гідроксид" },
       { cation: "Ca²⁺",  anion: "NO₃⁻",    correctFormula: "Ca(NO₃)₂",      correctName: "Кальцій нітрат" },
       { cation: "Ca²⁺",  anion: "CO₃²⁻",   correctFormula: "CaCO₃",         correctName: "Кальцій карбонат" },
-      { cation: "Fe³⁺",  anion: "SiO₃²⁻",  correctFormula: "Fe₂(SiO₃)₃",    correctName: "Ферум (III) силікат" }
+      { cation: "Fe³⁺",  anion: "SiO₃²⁻",  correctFormula: "Fe₂(SiO₃)₃",    correctName: "Ферум (ІІІ) силікат" }
     ]
   }
 ];
