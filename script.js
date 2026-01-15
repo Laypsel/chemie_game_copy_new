@@ -522,14 +522,14 @@ function startTrialVariant() {
   currentPhase = "trial";
   currentVariant = TRIAL_VARIANT;
   initGame(currentVariant);
-  startTimer(15); // 15 хв на пробний
+  startTimer(25); // 15 хв на пробний
 }
 
 function startMainVariant() {
   currentPhase = "main";
   currentVariant = popVariantFromQueue();
   initGame(currentVariant);
-  startTimer(15); // 15 хв на основний
+  startTimer(20); // 15 хв на основний
 }
 
 
