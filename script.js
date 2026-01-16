@@ -35,7 +35,7 @@ const VARIANTS = [
   {
     id: 2, name: "Варіант 2",
     tasks: [
-      { cation:"Li⁺",  anion:"F⁻",    correctFormula:"LiF",        correctName:"Літій фторид" },
+      { cation:"Mg²⁺",  anion:"Cl⁻",    correctFormula:"MgCl₂",        correctName:"Магній хлорид" },
       { cation:"Ca²⁺", anion:"O²⁻",   correctFormula:"CaO",        correctName:"Кальцій оксид" },
       { cation:"Al³⁺", anion:"Cl⁻",   correctFormula:"AlCl₃",      correctName:"Алюміній хлорид" },
       { cation:"K⁺",   anion:"SO₄²⁻", correctFormula:"K₂SO₄",      correctName:"Калій сульфат" },
@@ -55,11 +55,11 @@ const VARIANTS = [
       { cation:"Ca²⁺", anion:"CO₃²⁻", correctFormula:"CaCO₃",       correctName:"Кальцій карбонат" },
       { cation:"Pb²⁺", anion:"I⁻",    correctFormula:"PbI₂",        correctName:"Плюмбум (ІІ) йодид" },
       { cation:"Zn²⁺", anion:"S²⁻",   correctFormula:"ZnS",         correctName:"Цинк сульфід" },
-      { cation:"Ag⁺",  anion:"NO₃⁻",  correctFormula:"AgNO₃",       correctName:"Срібло нітрат" },
-      { cation:"K⁺",   anion:"MnO₄⁻", correctFormula:"KMnO₄",       correctName:"Калій перманганат" },
+      { cation:"Ag⁺",  anion:"NO₃⁻",  correctFormula:"AgNO₃",       correctName:"Аргентум  нітрат" },
+      { cation:"K⁺",   anion:"SO₄²⁻", correctFormula:"K₂SO₄",       correctName:"Калій сульфат" },
       { cation:"Al³⁺", anion:"SO₄²⁻", correctFormula:"Al₂(SO₄)₃",   correctName:"Алюміній сульфат" },
       { cation:"Cu⁺",  anion:"Cl⁻",   correctFormula:"CuCl",        correctName:"Купрум (І) хлорид" },
-      { cation:"Sr²⁺", anion:"Br⁻",   correctFormula:"SrBr₂",       correctName:"Стронцій бромід" }
+      { cation:"Ba²⁺", anion:"Br⁻",   correctFormula:"BaBr₂",       correctName:"Барій бромід" }
     ]
   },
   {
